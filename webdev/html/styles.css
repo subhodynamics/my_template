@@ -1,0 +1,21 @@
+.parent {
+  background-color: aqua;
+  position: relative;
+  /* height: 400vh; */
+}
+
+.child-one {
+  background-color: red;
+  position: fixed;
+  /* position: absolute; */
+  /* top: 0px; */
+  /* left: 20px; */
+}
+
+.child-two {
+  background-color: blueviolet;
+}
+
+.child-three {
+  background-color: yellow;
+}

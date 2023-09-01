@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+.child {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: solid black 2px;
+}
+
+.container {
+    resize: both;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    background-color: plum;
+    border: solid indigo 4px;
+    display: flex;
+    /* justify content is for the main axis */
+    justify-content: space-between; 
+    /* align item is for the cross axis */
+    align-items: center;
+    /* so to use align items we need to define the container's size */
+    flex-wrap: wrap;
+}
